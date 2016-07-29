@@ -1,0 +1,80 @@
+a:link    {                                                                   
+     color:green; background-color:transparent; text-decoration:none
+     }
+    a:visited {
+     color:#7d4627; background-color:transparent; text-decoration:none
+     }
+    a:hover   {
+     color:red; background-color:transparent; text-decoration:underline
+     }
+    a:active  {
+     color:yellow; background-color:transparent; text-decoration:underline
+     }
+
+body{
+          background-image: url(2002-08_Westerland_Sundown.jpg);
+          background-size: cover;
+          /*
+            https://commons.wikimedia.org/wiki/File:2002-08_Westerland_Sundown.jpg
+            Author: Magnus Manske
+           */
+     }
+
+#ArnoldDiv {
+
+    background-color:red;
+    color:white;
+    width: 1016px;
+    height: 900px;
+    text-align:center;
+    padding:10px;
+    border: 2px solid black;
+     margin-left: 100px;
+
+}
+
+#SKILLSANDINTERESTS {
+
+    height:700px;
+    background-color:pink;
+    color: black
+    width:972px;
+    padding:20px;
+    border: 2px solid black;    
+
+}
+
+
+#Links {
+    width: 320px;
+    height: 450px;
+    float: right;
+    background-color:#D3D3D3;
+    color:black;
+    text-align:center;
+    border: 2px solid green;
+
+}
+
+#EducationDiv {
+    width: 320px;
+    height: 450px;
+    float: left;
+    background-color:white;
+    color:black;
+    text-align:center;
+    border: 2px solid green;
+
+}
+
+#WORKEXPERIENCE {
+
+    width: 320px;
+    height: 450px;
+    float: left;
+    background-color:white;
+    color:black;
+    text-align:center;
+    border: 2px solid green;
+
+}
