@@ -48,7 +48,7 @@ body{
 #job1 {
 
     width: 320px;
-    height: 450px;
+    height: 500px;
     float: left;
     background-color:white;
     color:black;
@@ -59,7 +59,7 @@ body{
 
 #job2 {
     width: 320px;
-    height: 450px;
+    height: 500px;
     float: right;
     background-color:#D3D3D3;
     color:black;
@@ -70,7 +70,7 @@ body{
 
 #Links {
     width: 320px;
-    height: 450px;
+    height: 500px;
     float: left;
     background-color:white;
     color:black;
