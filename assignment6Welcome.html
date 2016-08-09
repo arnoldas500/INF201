@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="ExternalJobDuties.css"/>
+
+  <title>Arnoldas Kurbanovas</title>
+
+<script type="text/javascript" src="assignment6.js">
+
+</script>
+
+</head>
+
+<body onLoad="welcome(); setCurrentMonth();">
+
+<div id="ArnoldDiv">
+
+<h1 align="center">
+  <img src="gimpAssignment3.png" alt="border head" style="height:100px;width:750px;"/>
+</h1>
+
+<div id="WorkExperience">
+
+    <h2 align="center">Work Experience</h2>
+    <p align="center"><a href="#contact">Go to my information</a></p>
+
+
+  <div id="job2">
+    <h4>Arrow Security</h4>
+    <a href="http://www.arrowsecurity.com/" target="_blank">Company Site</a>
+    <p>Security Guard</p>
+    <p>November 2012 - June 2016</p>
+    <p><button onclick="arrow()">Click</button> to see top<input type="text" id="security"/> job duties</p>
+    <p id="duties2">Duties</p>
+  </div>
+
+
+  <div id="Links">
+
+
+ <h3>LINKS</h3>
+<h4>Links to my work</h4>
+    <p><a href="http://www.albany.edu/~ak983513/assignment6/assignment6Welcome.html" >Work Experience</a></p>
+    <p>
+<a href="http://www.albany.edu/~ak983513/assignment6/assignment6CalcVal.html" >Calculator</a></p>
+    <p>
+<a href="http://www.albany.edu/~ak983513/Skills.html" >Related Awards</a>
+</p> 
+
+<p>
+  Below is a dynamic Calender. Enter the Current year and month to see it in action!
+</p>
+
+<!--calender from http://dynamicdrive.com -->
+<div id="NavBar" style="position:relative;width:286px;top:5px;" align="center">
+<form name="when"><table>
+<tr>
+   <td><input type="button" value="<-- Last" onClick="Skip('-')"></td>
+   <td> </td>
+   <td><select name="month" onChange="On_Month()">
+
+<script language="JavaScript1.2">
+if (ie4||ns6){
+   for (j=0;j<Month_Label.length;j++) {
+      document.writeln('<option value=' + j + '>' + Month_Label[j]);
+   }
+}
+</script>
+
+       </select>
+   </td>
+   <td><input type="text" name="year" size=4 maxlength=4 onKeyPress="return Check_Nums()" onKeyUp="On_Year()"></td>
+   <td> </td>
+   <td><input type="button" value="Next -->" onClick="Skip('+')"></td>
+</tr></table></form></div>
+<div id="Calendar" style="position:relative;width:238px;top:-2px;" align="center"></div>
+
+
+
+
+  </div>
+
+
+
+  <div id="job1">
+    <h5>Center For Talented Youth (Johns Hopkins University)</h5>
+    <a href="http://cty.jhu.edu/" target="_blank">CTY</a>
+    <p>Teaching Assistant</p>
+    <p>July 2016 - Current</p>
+    <p><button onclick="tA()">Click</button> to see top<input type="text" id="cty"/> job duties</p>
+    <p id="duties1">Duties</p>
+  </div>
+
+  <h1 id="Hello"></h1>
+
+  </div>
+
+<h2 align="center"><a name="contact">Contact Information</a></h2>
+<p align="center">4 Spaulding Lane Stony Brook, New York 11790 | (631) 704-7013 | <a href="mailto:akurbanovas@albany.edu">akurbanovas@albany.edu</a></p>
+
+
+<a href="http://validator.w3.org/check?uri=referer"><img
+  src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a>
+
+</div>
+
+</body>
+
+</html>
